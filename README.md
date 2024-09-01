@@ -53,13 +53,13 @@ In this repository, we present the code we use for the experiments in the paper.
 - Testing: Run `facePAD/OULU_NPU/test.ipynb`
 
 ### Pre-trained Models
-To apply pre-trained models, follow the folder `pre_trained_models`
+All pre-trained models are available at this [link](https://)
 
 ### Videos to Images Conversion
 Follow the folder `convert_images` and run `convert_images.ipynb`
 
 ### Plot t-Distributed Stochastic Neighbor Embedding (t-SNE)
-To plot the t-SNE of all datasets, run `TSNE/datasets_TSNE.ipynb`
+To plot the t-SNE of all datasets, run `facePAD/TSNE/datasets_TSNE.ipynb`
 
 ### Demo
 - To demonstrate how to run the Face PAD codes for all datasets, we have provided an example demo code for the Replay_Attack dataset. 
