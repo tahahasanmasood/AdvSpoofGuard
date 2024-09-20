@@ -1,8 +1,8 @@
-# AdvSpoofGuard: Optimal Transport Driven Adversarial Attack Robust Face Presentation Attack Detection System
+# AdvSpoofGuard: Optimal Transport Driven Robust Face Presentation Attack Detection System
 This is the Pytorch implementation of the paper submitted/accepted/published in _______. The paper is available at this [link](https://)
 
 ### Introduction
-In this repository, we present the code we use for the experiments in the paper. We provide the code to train the models, generate fake samples using OT-CycleGAN, and evaluate the quality of the fake samples with a Fréchet Inception Distance score. We also provide all the pre-trained models and release the synthetic samples we generated.
+In this repository, we present the code we use for the experiments in the paper. We provide the code to train the models, generate fake samples using OT-CycleGAN, and evaluate the quality of the fake samples with a Fréchet Inception Distance (FID) score. The fake generated samples by OT-CycleGAN are then utilized in adversarial training to enhace the robustness of face presentation attack detection (face PAD) systems. We also provide all the pre-trained models and release the synthetic samples we generated.
 
 ### Proposed Unpaired Learning-based Adversarial Attack Generation Model
 
@@ -53,7 +53,7 @@ In this repository, we present the code we use for the experiments in the paper.
 - Testing: Run `facePAD/OULU_NPU/test.ipynb`
 
 ### Pre-trained Models
-All pre-trained models are available at this [link](https://)
+All pre-trained models are available at this [link](https://drive.google.com/drive/folders/1BSeuv3eFFdJDVB9-imLAG0nlfpGORcoo?usp=sharing)
 
 ### Videos to Images Conversion
 Follow the folder `convert_images` and run `convert_images.ipynb`
