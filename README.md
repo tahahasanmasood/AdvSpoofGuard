@@ -1,14 +1,19 @@
 # AdvSpoofGuard: Optimal Transport Driven Robust Face Presentation Attack Detection System
-This is the Pytorch implementation of the paper submitted/accepted/published in _______. The paper is available at this [link](https://)
+This is the Pytorch implementation of the paper submitted in [**Knowledge-Based Systems**](https://www.sciencedirect.com/journal/knowledge-based-systems) journal. The paper is available at this [link](https://)
 
-### Introduction
-In this repository, we present the code we use for the experiments in the paper. We provide the code to train the models, generate fake samples using OT-CycleGAN, and evaluate the quality of the fake samples with a Fréchet Inception Distance (FID) score. The fake generated samples by OT-CycleGAN are then utilized in adversarial training to enhace the robustness of face presentation attack detection (face PAD) systems. We also provide all the pre-trained models and release the synthetic samples we generated.
+### Overview
+AdvSpoofGuard presents a computationally efficient solution to address the vulnerability of face presentation attack detection (face PAD) against various attack types including physical, digital, and adversarial attacks by leveraging optimal transport (OT) and CycleGAN-based adversarial meta-learning.
+
+In this repository, we present the code we use for the experiments in the paper. We provide the code to train the models, generate fake samples using OT-CycleGAN, and evaluate the quality of the fake samples with a Fréchet Inception Distance (FID) score. The fake-generated samples by OT-CycleGAN are then utilized in adversarial training to enhance the robustness of face presentation attack detection (face PAD) systems. We also provide the test code and all pre-trained model weights to evaluate the proposed model's performance as reported in the paper.
 
 ### Proposed Unpaired Learning-based Adversarial Attack Generation Model
+<img src="https://github.com/user-attachments/assets/e5e76b1a-ecfb-49b4-ab99-91c04d018e69" alt="Sample Image" width="650">
 
-### Proposed CycleGAN-based Adversarial Attack Generation Model
+### Proposed OT-CycleGAN-based Adversarial Attack Generation Model
+![cyclegan_architecture_final_revised_5](https://github.com/user-attachments/assets/dcf1583d-766d-4e51-87ae-30312ca9fe8b)
 
 ### Architecture of the Proposed Face Presentation Attack Detection Classifier
+![FacePAD_architecture_final_revised_2](https://github.com/user-attachments/assets/0762afd9-744e-4ade-a21e-4f070da4e0d6)
 
 ### Results
 
@@ -27,11 +32,11 @@ In this repository, we present the code we use for the experiments in the paper.
 ### Dataset Placement
 ```bash
 └── Your_Data_Dir
-   ├── Replay_Attack 
-   ├── Replay_Mobile
-   ├── OULU_NPU
-   ├── ROSE_Youtu
-   └── ...
+    ├── Replay_Attack 
+    ├── Replay_Mobile
+    ├── OULU_NPU
+    ├── ROSE_Youtu
+    └── ...
 ```
 ### Datasets Details
 
