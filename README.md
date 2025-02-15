@@ -119,7 +119,7 @@ bibtex
 ```
 
 ## Acknowledgments
-Our OT-CycleGAN code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). All credit goes to the authors of [CycleGAN](https://arxiv.org/abs/1703.10593), Jun-Yan Zhu, Taesung Park, Phillip Isola, and Alexei A. Efros.
+Our OT-CycleGAN code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). Thanks to the authors of [CycleGAN](https://arxiv.org/abs/1703.10593) for sharing their code.
 
 
 
