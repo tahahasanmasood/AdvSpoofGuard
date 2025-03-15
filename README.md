@@ -4,7 +4,7 @@ This is the Pytorch implementation of the paper submitted in [**Knowledge-Based 
 ### Overview
 AdvSpoofGuard presents a computationally efficient solution to address the vulnerability of face presentation attack detection (face PAD) against various attack types including physical, digital, and adversarial attacks by leveraging optimal transport (OT) and CycleGAN-based adversarial meta-learning.
 
-In this repository, we present the code we use for the experiments in the paper. We provide the code to train the models, generate fake samples using OT-CycleGAN, and evaluate the quality of the fake samples with a Fréchet Inception Distance (FID) score. The fake-generated samples by OT-CycleGAN are then utilized in adversarial training to enhance the robustness of face presentation attack detection (face PAD) systems. We also provide the test code and all pre-trained model weights to evaluate the proposed model's performance as reported in the paper.
+In this repository, we present the code we use for the experiments in the paper. We provide the code to train the models, generate fake samples using OT-CycleGAN, and evaluate the quality of the fake samples with Fréchet Inception Distance (FID) and GMDM scores. The fake-generated samples by OT-CycleGAN are then utilized in adversarial training to enhance the robustness of face presentation attack detection (face PAD) systems. We also provide the test code and all pre-trained model weights to evaluate the proposed model's performance as reported in the paper.
 
 ### Proposed Unpaired Learning-based Adversarial Attack Generation Model
 <img src="https://github.com/user-attachments/assets/e5e76b1a-ecfb-49b4-ab99-91c04d018e69" alt="Sample Image" width="650">
@@ -64,7 +64,13 @@ All pre-trained models are available at this [link](https://drive.google.com/dri
 Follow the folder `convert_images` and run `convert_images.ipynb`
 
 ### Plot t-Distributed Stochastic Neighbor Embedding (t-SNE)
-To plot the t-SNE of all datasets, run `facePAD/TSNE/datasets_TSNE.ipynb`
+To plot the t-SNE for all datasets, run `facePAD/TSNE/datasets_TSNE.ipynb`
+
+### Plot Computational Complexity
+To plot the computational complexity graph for different models, run `facePAD/computation_complexity/computation_plot.ipynb`
+
+### GradCAM Analysis
+To visually analyze GradCAM for all datasets, run `facePAD/GradCAM/GradCAM.ipynb`
 
 ### Demo
 - To demonstrate how to run the Face PAD codes for all datasets, we have provided an example demo code for the Replay_Attack dataset. 
@@ -111,6 +117,11 @@ python test.py --dataroot datasets/Replay_Attack/testA --name replay_attack --mo
 
 ### FID Score
 To evaluate the quality of synthetic samples, we computed [FID score](https://github.com/mseitzer/pytorch-fid) to measure the similarity between original dataset samples and generated fake samples.
+
+### GMDM Score
+To evaluate the absolute value between two unpaired distributions, we computed [Generalized Multi-dimensional Distribution Overlap Metric (GMDM)](https://www.sciencedirect.com/science/article/abs/pii/S1051200423000258),
+run `facePAD/GMDM/gmdm_evaluate.ipynb`
+
 
 ## Citation
 If you use this code for your research, please cite our paper.
