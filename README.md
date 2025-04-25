@@ -7,7 +7,9 @@ AdvSpoofGuard presents a computationally efficient solution to address the vulne
 In this repository, we present the code we use for the experiments in the paper. We provide the code to train the models, generate fake samples using OT-CycleGAN, and evaluate the quality of the fake samples with Fréchet Inception Distance (FID) and GMDM scores. The fake-generated samples by OT-CycleGAN are then utilized in adversarial training to enhance the robustness of face presentation attack detection (face PAD) systems. We also provide the test code and all pre-trained model weights to evaluate the proposed model's performance as reported in the paper.
 
 ### Proposed Unpaired Learning-based Adversarial Attack Generation Model
-<img src="https://github.com/user-attachments/assets/e5e76b1a-ecfb-49b4-ab99-91c04d018e69" alt="Sample Image" width="650">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e5e76b1a-ecfb-49b4-ab99-91c04d018e69" alt="Sample Image" width="650">
+</p>
 
 ### Proposed OT-CycleGAN-based Adversarial Attack Generation Model
 ![cyclegan_architecture_final_revised_5](https://github.com/user-attachments/assets/dcf1583d-766d-4e51-87ae-30312ca9fe8b)
@@ -16,6 +18,13 @@ In this repository, we present the code we use for the experiments in the paper.
 ![FacePAD_architecture_final_revised_2](https://github.com/user-attachments/assets/0762afd9-744e-4ade-a21e-4f070da4e0d6)
 
 ### Results
+<img src="https://github.com/user-attachments/assets/01fd1886-9622-4755-a459-a5228e6d9c7d" alt="Sample Image" width="500"> <img src="https://github.com/user-attachments/assets/71282394-ffa9-4198-84e0-b184adeec1bf" alt="Sample Image" width="500">
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/user-attachments/assets/363a7fd0-2397-48ae-b002-62ddffeaf274">
+</p>
+
+![Table10](https://github.com/user-attachments/assets/765550d8-b674-40b4-be25-8ee734752065)
 
 ## Usage
 
@@ -66,8 +75,10 @@ Follow the folder `convert_images` and run `convert_images.ipynb`
 ### Plot t-Distributed Stochastic Neighbor Embedding (t-SNE)
 To plot the t-SNE for all datasets, run `facePAD/TSNE/datasets_TSNE.ipynb`
 
-### Plot Computational Complexity
-To plot the computational complexity graph for different models, run `facePAD/computation_complexity/computation_plot.ipynb`
+### Computational Complexity
+- To compute the efficiency of different models, run `facePAD/computation_complexity/computational_efficiency/`
+- To cacluate the HTER (%) on RY for different models, run `facePAD/computation_complexity/before_advtrain_RY and after_advtrain_RY`
+- To plot the computational complexity graph for different models, run `facePAD/computation_complexity/computation_plot.ipynb`
 
 ### GradCAM Analysis
 To visually analyze GradCAM for all datasets, run `facePAD/GradCAM/GradCAM.ipynb`
