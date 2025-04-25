@@ -18,7 +18,7 @@ In this repository, we present the code we use for the experiments in the paper.
 ![FacePAD_architecture_final_revised_2](https://github.com/user-attachments/assets/0762afd9-744e-4ade-a21e-4f070da4e0d6)
 
 ### Results
-<img src="https://github.com/user-attachments/assets/01fd1886-9622-4755-a459-a5228e6d9c7d" alt="Sample Image" width="500"> <img src="https://github.com/user-attachments/assets/71282394-ffa9-4198-84e0-b184adeec1bf" alt="Sample Image" width="500">
+<img src="https://github.com/user-attachments/assets/01fd1886-9622-4755-a459-a5228e6d9c7d" alt="Sample Image" width="480">  <img src="https://github.com/user-attachments/assets/71282394-ffa9-4198-84e0-b184adeec1bf" alt="Sample Image" width="480">
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/user-attachments/assets/363a7fd0-2397-48ae-b002-62ddffeaf274">
