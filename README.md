@@ -1,5 +1,5 @@
 # AdvSpoofGuard: Optimal Transport Driven Robust Face Presentation Attack Detection System
-This is the Pytorch implementation of the paper submitted in [**Knowledge-Based Systems**](https://www.sciencedirect.com/journal/knowledge-based-systems) journal. The paper is available at this [link](https://)
+This is the Pytorch implementation of the paper published in [**Knowledge-Based Systems**](https://www.sciencedirect.com/journal/knowledge-based-systems) journal. The paper is available at this [link](https://www.sciencedirect.com/science/article/pii/S0950705125008056?dgcid=coauthor)
 
 ### Overview
 AdvSpoofGuard presents a computationally efficient solution to address the vulnerability of face presentation attack detection (face PAD) against various attack types including physical, digital, and adversarial attacks by leveraging optimal transport (OT) and CycleGAN-based adversarial meta-learning.
