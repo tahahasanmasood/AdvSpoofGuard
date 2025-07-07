@@ -140,7 +140,14 @@ run `facePAD/GMDM/gmdm_evaluate.ipynb`
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
-bibtex
+@article{siddique2025advspoofguard,
+  title={AdvSpoofGuard: Optimal transport driven robust face presentation attack detection system},
+  author={Siddique, Taha Hasan Masood and Khan, Shujaat and Wang, Zeyu and Huang, Kejie},
+  journal={Knowledge-Based Systems},
+  pages={113759},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
 
 ## Acknowledgments
